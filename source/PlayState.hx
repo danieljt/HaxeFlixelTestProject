@@ -50,7 +50,8 @@ class PlayState extends FlxState
 
 	/**
 	Read entities from xml file created in ogmo and apply to game
-	world. 
+	world. Important that names are the same in ogmo as they are in
+	this function.
 	**/
 	
 	function placeEntities(entityName:String, entityData:Xml):Void

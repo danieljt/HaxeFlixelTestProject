@@ -35,6 +35,7 @@ class Enemy extends FlxSprite{
         _idleTmr = 0;
         playerPos = FlxPoint.get();
     }
+    
     /**
     Function for when an enemy is in an idle state. If the player comes within
     the enemy line of sight, the enemy will chase the player. If not, the enemy will
